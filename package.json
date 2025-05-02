@@ -1,0 +1,13 @@
+{
+  "name": "rolldown-watch-issue-repo1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "rollup": "rollup -c rollup.config.js -w",
+    "rolldown": "rolldown -c rolldown.config.js -w"
+  },
+  "devDependencies": {
+    "rolldown": "1.0.0-beta.8",
+    "rollup": "^4.40.1"
+  }
+}
